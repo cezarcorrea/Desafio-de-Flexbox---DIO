@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+}
+
+.start {
+    display: flex;
+    justify-content: baseline;
+    width: 25vw;
+    height: 7vh;
+}
+
+#menu {
+    width: 25px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 130px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: baseline;
+    width: 50vw;
+    height: 7vh;
+}
+
+input {
+    width: 30vw;
+    height: 5vh;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: solid 1px;
+    margin-top: 6px;
+}
+
+#pesquisar {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    justify-content: end;
+    width: 25vw;
+    height: 7vh;
+    
+   
+}
+
+#cam {
+    width: 4vw;
+    height: 7vh;
+    margin-right: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#not {
+    width: 2.5vw;
+    height: 5vh;
+    margin-right: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#av {
+    width: 3vw;
+    height: 5vh;
+    margin-right: 20px;
+    margin-top: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section {
+ width: 1080px;
+ height: 580px;
+}
+
+iframe {
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+h2 {
+   margin-left: 80px;
+   margin-top: 5px;
+}
+
+.info {
+    display: flex;
+    width: 1080px;
+    height: 7vh;
+}
+
+#dio {
+    width: 3vw;
+    height: 6vh;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+#diotxt {
+    margin-left: 140px;
+    margin-top: -40px;
+    font-size: 100;
+    cursor: pointer;
+    
+}
+
+#inscritos {
+    margin-left: 140px;
+    margin-top: -2px;
+    font-size: small;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+#button {
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: large;
+    border: solid 1px red;
+    background-color: red;
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    justify-content: baseline;
+    width: 50vw;
+    height: 7vh;
+}
+
+#img1 {
+   width: 2vw;
+   height: 4vh;
+   margin-top: 10px;
+   margin-left: 40px;
+   cursor: pointer;
+}
+
+#txt1 {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 20px;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+#img2 {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+ }
+ 
+ #txt2 {
+     width: 2vw;
+     height: 4vh;
+     margin-top: 20px;
+     white-space: nowrap;
+     margin-left: 5px;
+ }
+
+ #img3 {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+ }
+ 
+ #txt3 {
+     width: 2vw;
+     height: 4vh;
+     margin-top: 20px;
+     white-space: nowrap;
+     margin-left: 5px;
+ }
+
+ #img4 {
+    width: 2vw;
+    height: 4vh;
+    margin-top: 10px;
+    margin-left: 110px;
+    cursor: pointer;
+ }
+ 
+ #txt4 {
+     width: 2vw;
+     height: 4vh;
+     margin-top: 20px;
+     white-space: nowrap;
+     margin-left: 5px;
+ }
+
+ .if {
+    width: 45vw;
+    height: 15vh;
+ }
+
+ h3 {
+    margin-left: 80px;
+    margin-top: 10px;
+ }
+
+ #ph3 {
+   margin-left: 80px;
+   margin-top: 20px;
+ }
+
+ .lateral {
+    display: flex;
+    flex-direction: column;
+    width: 28.6vw;
+    height: 120vh;
+    margin-left:1080px;
+    margin-top: -740px;
+ }
+
+ .vd1 {
+    width: 12vw;
+    height: 15vh;
+    margin-top: 20px;
+    border-radius: 10px;
+ }
+
+ .vd2 {
+    width: 12vw;
+    height: 15vh;
+    margin-top: 40px;
+    border-radius: 10px;
+ }
+
+ h4 {
+    margin-left: 200px;
+    margin-top: -110px;
+ }
+
+ #ph4 {
+    margin-left: 200px;
+    margin-top: 12px;
+    font-size: 13px;
+ }
